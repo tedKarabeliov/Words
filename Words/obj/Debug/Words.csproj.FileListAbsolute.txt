@@ -1,0 +1,12 @@
+c:\users\tkarabeliov\documents\visual studio 2015\Projects\Words\Words\bin\Debug\Words.exe.config
+c:\users\tkarabeliov\documents\visual studio 2015\Projects\Words\Words\bin\Debug\Words.exe
+c:\users\tkarabeliov\documents\visual studio 2015\Projects\Words\Words\bin\Debug\Words.pdb
+c:\users\tkarabeliov\documents\visual studio 2015\Projects\Words\Words\obj\Debug\Words.csprojResolveAssemblyReference.cache
+c:\users\tkarabeliov\documents\visual studio 2015\Projects\Words\Words\obj\Debug\Words.exe
+c:\users\tkarabeliov\documents\visual studio 2015\Projects\Words\Words\obj\Debug\Words.pdb
+C:\Dev\Projects\Words\Words\bin\Debug\Words.exe.config
+C:\Dev\Projects\Words\Words\obj\Debug\Words.exe
+C:\Dev\Projects\Words\Words\obj\Debug\Words.pdb
+C:\Dev\Projects\Words\Words\bin\Debug\Words.exe
+C:\Dev\Projects\Words\Words\bin\Debug\Words.pdb
+C:\Dev\Projects\Words\Words\obj\Debug\Words.csprojResolveAssemblyReference.cache
