@@ -70,12 +70,17 @@ namespace Words
 
                 using (SqlDataReader rdr = cmd.ExecuteReader())
                 {
-                    while (rdr.Read())
+                    using (StreamWriter writetext = new StreamWriter("clickerInput.txt"))
                     {
-                        Console.OutputEncoding = Encoding.UTF8;
-                        Console.WriteLine(rdr.GetString(0));
-                        Console.WriteLine(rdr.GetString(1));
+                        while (rdr.Read())
+                        {
+                            //Console.OutputEncoding = Encoding.UTF8;
+                            //Console.WriteLine(rdr.GetString(0));
+                            //Console.WriteLine(rdr.GetString(1));
+                            writetext.WriteLine(rdr.GetString(1));
+                        }
                     }
+                    
                 }
             }
 
@@ -176,10 +181,39 @@ namespace Words
             }
 
             builder.Append(words[row, col]);
-            builderPath.Append(row * 4 + col);
+            builderPath.Append(ConvertToCoordinates(row * 4 + col));
             builderPath.Append(" ");
 
             PrintResult(words, visitedWithLastRow, visitedWithLastCol, visitedWithLastRow[row, col], visitedWithLastCol[row, col]);
+        }
+
+        private static string ConvertToCoordinates(int position)
+        {
+            var result = string.Empty;
+
+            switch (position)
+            {
+                case 0: result = "828 406"; break;
+                case 1: result = "977 406"; break;
+                case 2: result = "1124 406"; break;
+                case 3: result = "1273 406"; break;
+                case 4: result = "828 554"; break;
+                case 5: result = "977 554"; break;
+                case 6: result = "1124 554"; break;
+                case 7: result = "1273 406"; break;
+                case 8: result = "828 697"; break;
+                case 9: result = "988 697"; break;
+                case 10: result = "1124 697"; break;
+                case 11: result = "1273 697"; break;
+                case 12: result = "828 848"; break;
+                case 13: result = "988 848"; break;
+                case 14: result = "1124 848"; break;
+                case 15: result = "1273 848"; break;
+
+                default: break;
+            }
+
+            return result;
         }
     }
 }

@@ -10,3 +10,9 @@ C:\Dev\Projects\Words\Words\obj\Debug\Words.pdb
 C:\Dev\Projects\Words\Words\bin\Debug\Words.exe
 C:\Dev\Projects\Words\Words\bin\Debug\Words.pdb
 C:\Dev\Projects\Words\Words\obj\Debug\Words.csprojResolveAssemblyReference.cache
+F:\Dev\Projects\Words\Words\bin\Debug\Words.exe.config
+F:\Dev\Projects\Words\Words\bin\Debug\Words.exe
+F:\Dev\Projects\Words\Words\bin\Debug\Words.pdb
+F:\Dev\Projects\Words\Words\obj\Debug\Words.csprojResolveAssemblyReference.cache
+F:\Dev\Projects\Words\Words\obj\Debug\Words.exe
+F:\Dev\Projects\Words\Words\obj\Debug\Words.pdb
